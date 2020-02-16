@@ -1,0 +1,2 @@
+INSERT INTO tb_pessoa (id_pessoa, en_tipo_sexo, ds_email, dt_data_nascimento, ds_naturalidade, ds_nacionalidade, ds_cpf, dt_data_criacao)
+VALUES (pessoa_id_sequence.nextval, 'MASCULINO', 'teste@teste.com', now(), 'Belo Horizonte', 'Brasileiro', '12345678900', CURRENT_TIMESTAMP);
